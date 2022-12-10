@@ -98,7 +98,6 @@ def game():
             turn = 'O'
         else:
             turn = 'X'        
-    
     # Now we will ask if player wants to restart the game or not.
     restart = input("Do want to play Again?(y/n)")
     if restart == "y" or restart == "Y":  
